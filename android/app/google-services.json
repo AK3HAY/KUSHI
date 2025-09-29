@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558595845634",
+    "project_id": "bizil-b81aa",
+    "storage_bucket": "bizil-b81aa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558595845634:android:ffcb369e4f9ed0b95b811b",
+        "android_client_info": {
+          "package_name": "com.example.bizil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA__38tD7MEwzwF4U7GHJV10MdDY8b_VGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+AddToCart
+ClearCart
+ConfirmationNo
+ConfirmationYes
+GetCartTotal
+GetItemPrice
+GetRestaurantList
+Greeting
+IncompleteAdd
+IncompleteRemove
+RemoveFromCart
+ShowCart
+ShowFullMenu
+StartCheckout
+Thanks
+Unknown

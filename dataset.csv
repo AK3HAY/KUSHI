@@ -1,0 +1,515 @@
+text,label
+"hello",Greeting
+"hi",Greeting
+"hey there",Greeting
+"good morning",Greeting
+"good afternoon",Greeting
+"howdy",Greeting
+"greetings",Greeting
+"start our conversation",Greeting
+"can you help me",Greeting
+"yo",Greeting
+"what's up",Greeting
+"hey assistant",Greeting
+"hi there",Greeting
+"start",Greeting
+"hey kushi",Greeting
+"a little help please",Greeting
+"good day",Greeting
+"how are you",Greeting
+"is anyone there",Greeting
+"hello bot",Greeting
+"are you there",Greeting
+"hi kushi",Greeting
+"hey bot",Greeting
+"start the conversation",Greeting
+"can we start",Greeting
+"what's happening",Greeting
+"nice to meet you",Greeting
+"hello hello",Greeting
+"a pleasant day to you",Greeting
+"how may I help you",Greeting
+"thanks",Thanks
+"thank you",Thanks
+"appreciate it",Thanks
+"thanks a lot",Thanks
+"that was helpful thank you",Thanks
+"many thanks",Thanks
+"cheers",Thanks
+"much appreciated",Thanks
+"okay thank you",Thanks
+"thank you for your help",Thanks
+"great thanks",Thanks
+"perfect thank you",Thanks
+"thanks that's all",Thanks
+"I appreciate your assistance",Thanks
+"you've been a great help",Thanks
+"thanks so much",Thanks
+"cool thanks",Thanks
+"thank you very much",Thanks
+"thanks a bunch",Thanks
+"I am grateful",Thanks
+"that's very helpful",Thanks
+"thanks for the information",Thanks
+"you're the best",Thanks
+"thanks for that",Thanks
+"ok thanks",Thanks
+"that's all I needed thanks",Thanks
+"thank you for everything",Thanks
+"I'm good now thanks",Thanks
+"you've been wonderful thanks",Thanks
+"thanks for your time",Thanks
+"I want to order food",IncompleteAdd
+"I'd like to get something",IncompleteAdd
+"let me add an item",IncompleteAdd
+"I want to add to my cart",IncompleteAdd
+"can I order",IncompleteAdd
+"I want to add",IncompleteAdd
+"I would like to place an order",IncompleteAdd
+"time to order",IncompleteAdd
+"let's add something",IncompleteAdd
+"I need to add",IncompleteAdd
+"I want to order now",IncompleteAdd
+"get me something",IncompleteAdd
+"I want something to eat",IncompleteAdd
+"I'm hungry",IncompleteAdd
+"let's order",IncompleteAdd
+"I'm ready to add something",IncompleteAdd
+"I want to place an order for some food",IncompleteAdd
+"I need to order an item",IncompleteAdd
+"I want to add a dish",IncompleteAdd
+"I'm looking to order",IncompleteAdd
+"I want to buy",IncompleteAdd
+"add to my order",IncompleteAdd
+"I need to buy some food",IncompleteAdd
+"I'm ready to choose my food",IncompleteAdd
+"can I make an order",IncompleteAdd
+"I'd like to make a purchase",IncompleteAdd
+"I want to order some items",IncompleteAdd
+"I'm ready to select my dishes",IncompleteAdd
+"let's get some food",IncompleteAdd
+"I want to buy something to eat",IncompleteAdd
+"I want to remove something",IncompleteRemove
+"let's take something off",IncompleteRemove
+"I need to delete an item",IncompleteRemove
+"I want to remove",IncompleteRemove
+"can I remove an item",IncompleteRemove
+"remove please",IncompleteRemove
+"delete from cart",IncompleteRemove
+"I need to remove something",IncompleteRemove
+"I want to delete",IncompleteRemove
+"take something off my order",IncompleteRemove
+"let's remove an item",IncompleteRemove
+"I want to take something out",IncompleteRemove
+"remove something from my basket",IncompleteRemove
+"delete an item please",IncompleteRemove
+"I'd like to remove something",IncompleteRemove
+"I need to remove a dish",IncompleteRemove
+"I want to delete an item from my cart",IncompleteRemove
+"can you remove something for me",IncompleteRemove
+"I want to take an item off",IncompleteRemove
+"let's delete something",IncompleteRemove
+"I need to remove a food item",IncompleteRemove
+"delete something from the order",IncompleteRemove
+"I want to take off an item",IncompleteRemove
+"can you remove a dish",IncompleteRemove
+"I'd like to delete something",IncompleteRemove
+"I want to take something out of my cart",IncompleteRemove
+"remove an item from my purchase",IncompleteRemove
+"I need to delete something",IncompleteRemove
+"can you take something off my order",IncompleteRemove
+"I've changed my mind I want to remove",IncompleteRemove
+"show restaurants",GetRestaurantList
+"what restaurants are available",GetRestaurantList
+"list of restaurants please",GetRestaurantList
+"what are my options for places to eat",GetRestaurantList
+"who delivers here",GetRestaurantList
+"what places can I order from",GetRestaurantList
+"show me the list of restaurants",GetRestaurantList
+"see all restaurants",GetRestaurantList
+"which restaurants can I order from",GetRestaurantList
+"list restaurants",GetRestaurantList
+"view restaurants",GetRestaurantList
+"what's available",GetRestaurantList
+"show me food places",GetRestaurantList
+"available restaurants",GetRestaurantList
+"what are the restaurants",GetRestaurantList
+"restaurants please",GetRestaurantList
+"give me the restaurants",GetRestaurantList
+"which places are nearby",GetRestaurantList
+"options for restaurants",GetRestaurantList
+"can I see the restaurants",GetRestaurantList
+"what are the local food options",GetRestaurantList
+"list all available food places",GetRestaurantList
+"who can I order from",GetRestaurantList
+"show me the nearby restaurants",GetRestaurantList
+"what's open for delivery",GetRestaurantList
+"what are the restaurant choices",GetRestaurantList
+"display the restaurants",GetRestaurantList
+"which food places are there",GetRestaurantList
+"I want to see the restaurants",GetRestaurantList
+"list all restaurants for me",GetRestaurantList
+"what are the restaurants in my area",GetRestaurantList
+"show me all the food options",GetRestaurantList
+"which restaurants are open now",GetRestaurantList
+"I need a list of restaurants",GetRestaurantList
+"give me the list of available restaurants",GetRestaurantList
+"can I see the menu",ShowFullMenu
+"show me the menu for Pizza Palace",ShowFullMenu
+"what's on the menu at Burger Town",ShowFullMenu
+"what do they have at Noodle House",ShowFullMenu
+"what can I get from Meridian",ShowFullMenu
+"tell me the menu",ShowFullMenu
+"menu please",ShowFullMenu
+"what are the options on the menu",ShowFullMenu
+"list the menu items",ShowFullMenu
+"show me what they serve",ShowFullMenu
+"I want to see a menu",ShowFullMenu
+"can you show me their menu",ShowFullMenu
+"what's on the menu",ShowFullMenu
+"what kind of food do they have",ShowFullMenu
+"display the menu",ShowFullMenu
+"I'd like to see the menu",ShowFullMenu
+"get me the menu",ShowFullMenu
+"what are their dishes",ShowFullMenu
+"show me food for pizza hut",ShowFullMenu
+"what's on meridian's menu",ShowFullMenu
+"list the full menu",ShowFullMenu
+"can I get a look at the menu",ShowFullMenu
+"show me everything they have",ShowFullMenu
+"what are the food items",ShowFullMenu
+"what's available to eat there",ShowFullMenu
+"I want to see the menu of Paradise",ShowFullMenu
+"what's on the menu for KFC",ShowFullMenu
+"show me what burger king has",ShowFullMenu
+"can you get me the menu for dominos",ShowFullMenu
+"I'd like to see what subway offers",ShowFullMenu
+"what's on the menu for paradise",ShowFullMenu
+"can you show me the menu for McDonald's",ShowFullMenu
+"what are the items at Pizza Hut",ShowFullMenu
+"I want to see the KFC menu",ShowFullMenu
+"show me the food at Meridian",ShowFullMenu
+"how much for a pizza",GetItemPrice
+"what's the price of a burger",GetItemPrice
+"cost of fries",GetItemPrice
+"tell me how much a soda is",GetItemPrice
+"what is the price for the combo meal",GetItemPrice
+"how much does that cost",GetItemPrice
+"what's the damage for a large pizza",GetItemPrice
+"price check on spring rolls",GetItemPrice
+"how much",GetItemPrice
+"what does a burger cost",GetItemPrice
+"price on a milkshake",GetItemPrice
+"how much is one of those",GetItemPrice
+"tell me the price",GetItemPrice
+"what's the cost of a water bottle",GetItemPrice
+"how much will that be",GetItemPrice
+"price for a chicken sandwich",GetItemPrice
+"how much for an order of wings",GetItemPrice
+"what's the price tag",GetItemPrice
+"cost please",GetItemPrice
+"how expensive is that",GetItemPrice
+"give me the price for a large coke",GetItemPrice
+"what's the cost of the family meal",GetItemPrice
+"how much is the chicken biryani",GetItemPrice
+"price of a single slice of pizza",GetItemPrice
+"what do you charge for a salad",GetItemPrice
+"how much is a side of fries",GetItemPrice
+"what is the price of the chicken nuggets",GetItemPrice
+"how much for a diet pepsi",GetItemPrice
+"tell me the cost of the naan bread",GetItemPrice
+"price on the paneer tikka",GetItemPrice
+"what's the price for a large pizza",GetItemPrice
+"how much for a small coke",GetItemPrice
+"what is the cost of a chicken burger",GetItemPrice
+"tell me the price of the veggie burger",GetItemPrice
+"how much for one of those combo meals",GetItemPrice
+"add a large pizza to my order",AddToCart
+"I want two burgers and a coke",AddToCart
+"can I get three orders of fries",AddToCart
+"I'll have a milkshake",AddToCart
+"get me a chicken sandwich",AddToCart
+"add one water bottle",AddToCart
+"put a salad in the cart",AddToCart
+"order a biryani",AddToCart
+"I would like to add a soup",AddToCart
+"and a side of onion rings",AddToCart
+"let's add a large pepperoni pizza",AddToCart
+"I need two diet cokes",AddToCart
+"put one cheeseburger in there",AddToCart
+"I will take a chicken noodle soup",AddToCart
+"I also want a small fries",AddToCart
+"add a veggie burger",AddToCart
+"get me one of those combo meals",AddToCart
+"I'd like a bottle of water",AddToCart
+"add some garlic bread",AddToCart
+"let's get a chocolate milkshake",AddToCart
+"I want to add a chicken pizza",AddToCart
+"add two cokes to my order please",AddToCart
+"can I have three naan breads",AddToCart
+"get me one order of paneer tikka",AddToCart
+"I also want a Diet Pepsi",AddToCart
+"I want a burger",AddToCart
+"add a pizza for me",AddToCart
+"I'd like one sandwich",AddToCart
+"I'll take a large soda",AddToCart
+"I want fries",AddToCart
+"add a chicken biryani to my order",AddToCart
+"I want to get a paneer butter masala",AddToCart
+"let's add a chicken sandwich",AddToCart
+"I'll have a veggie burger please",AddToCart
+"get me two orders of garlic bread",AddToCart
+"remove the pizza",RemoveFromCart
+"take the fries off my cart",RemoveFromCart
+"get rid of the soda",RemoveFromCart
+"I don't want the burger anymore",RemoveFromCart
+"delete the milkshake",RemoveFromCart
+"remove the last item I added",RemoveFromCart
+"take one of the burgers off",RemoveFromCart
+"I changed my mind about the salad",RemoveFromCart
+"remove an item from my order",RemoveFromCart
+"delete the water bottle",RemoveFromCart
+"take the biryani out of my cart",RemoveFromCart
+"I don't want the soup",RemoveFromCart
+"get rid of the onion rings",RemoveFromCart
+"remove the pepperoni pizza",RemoveFromCart
+"I want to remove the diet coke",RemoveFromCart
+"delete the cheeseburger",RemoveFromCart
+"take the garlic bread out",RemoveFromCart
+"remove the chocolate milkshake",RemoveFromCart
+"I'd like to remove the fries",RemoveFromCart
+"can you remove the salad",RemoveFromCart
+"I want to take off the chicken pizza",RemoveFromCart
+"remove the two cokes please",RemoveFromCart
+"I don't need the naan breads anymore",RemoveFromCart
+"delete the paneer tikka",RemoveFromCart
+"remove the Diet Pepsi",RemoveFromCart
+"take out the sandwich",RemoveFromCart
+"get rid of the large soda",RemoveFromCart
+"I don't want the fries",RemoveFromCart
+"remove the burger from my order",RemoveFromCart
+"I changed my mind about the pizza",RemoveFromCart
+"I want to remove the chicken biryani",RemoveFromCart
+"take the paneer butter masala out",RemoveFromCart
+"get rid of the chicken sandwich",RemoveFromCart
+"I don't want the veggie burger anymore",RemoveFromCart
+"delete the garlic bread",RemoveFromCart
+"show my cart",ShowCart
+"what's in my basket",ShowCart
+"can you show me my order",ShowCart
+"what have I added so far",ShowCart
+"check my current order",ShowCart
+"let's see what's in the cart",ShowCart
+"review my order",ShowCart
+"read out my items",ShowCart
+"what's my cart looking like",ShowCart
+"show me my items",ShowCart
+"what's in the cart",ShowCart
+"list my items",ShowCart
+"can I see my cart",ShowCart
+"what's my order",ShowCart
+"show my basket",ShowCart
+"what did I order",ShowCart
+"check cart",ShowCart
+"open my cart",ShowCart
+"what am I getting",ShowCart
+"let's review the order",ShowCart
+"can you list what's in my cart",ShowCart
+"tell me what I have in my cart",ShowCart
+"what are the items in my cart",ShowCart
+"show me the contents of my cart",ShowCart
+"what have I selected so far",ShowCart
+"what does my cart contain",ShowCart
+"show the cart contents",ShowCart
+"what's my order so far",ShowCart
+"what's in my current order",ShowCart
+"list what I've added",ShowCart
+"can you show me what's in my basket",ShowCart
+"what's my current selection",ShowCart
+"show me what I'm ordering",ShowCart
+"what are the items in my basket",ShowCart
+"what's my order list",ShowCart
+"what's the total",GetCartTotal
+"how much is my order",GetCartTotal
+"tell me the grand total",GetCartTotal
+"what's the total cost",GetCartTotal
+"how much do I owe",GetCartTotal
+"what will the bill be",GetCartTotal
+"give me the total",GetCartTotal
+"how much so far",GetCartTotal
+"what's the final price",GetCartTotal
+"total please",GetCartTotal
+"what's my bill",GetCartTotal
+"how much is everything",GetCartTotal
+"what's the total amount",GetCartTotal
+"give me the cost",GetCartTotal
+"what's the damage",GetCartTotal
+"what is my current total",GetCartTotal
+"how much will I pay",GetCartTotal
+"final cost",GetCartTotal
+"tell me my total",GetCartTotal
+"what is the total bill",GetCartTotal
+"what's the total of my order",GetCartTotal
+"can you tell me the total",GetCartTotal
+"how much is it all together",GetCartTotal
+"what's the subtotal",GetCartTotal
+"how much will it cost me",GetCartTotal
+"what's the final bill",GetCartTotal
+"total for my order",GetCartTotal
+"how much will that cost",GetCartTotal
+"give me the final price",GetCartTotal
+"what's the grand total of my cart",GetCartTotal
+"empty my cart",ClearCart
+"clear my order",ClearCart
+"remove everything",ClearCart
+"start over",ClearCart
+"I want to start a new order",ClearCart
+"delete all items",ClearCart
+"reset my cart",ClearCart
+"let's clear everything",ClearCart
+"empty the basket",ClearCart
+"clear it all",ClearCart
+"I want to clear everything",ClearCart
+"reset the order",ClearCart
+"empty my shopping cart",ClearCart
+"delete my whole order",ClearCart
+"start fresh",ClearCart
+"clear all items from my cart",ClearCart
+"I'd like to empty my cart",ClearCart
+"cancel my entire order",ClearCart
+"let's empty the cart",ClearCart
+"wipe my cart clean",ClearCart
+"I want to clear my basket",ClearCart
+"remove all items from my order",ClearCart
+"let's start from scratch",ClearCart
+"I want to clear the slate",ClearCart
+"clear out my cart please",ClearCart
+"I need to clear my order",ClearCart
+"please empty the cart",ClearCart
+"remove all the items",ClearCart
+"I want to remove everything",ClearCart
+"let's start over",ClearCart
+"clear the entire order",ClearCart
+"I want to cancel everything",ClearCart
+"delete everything in my cart",ClearCart
+"I'm ready to checkout",StartCheckout
+"let's pay",StartCheckout
+"I want to place my order",StartCheckout
+"proceed to billing",StartCheckout
+"checkout now",StartCheckout
+"I'd like to pay for my items",StartCheckout
+"finish my order",StartCheckout
+"place order",StartCheckout
+"place the order",StartCheckout
+"I want to place order",StartCheckout
+"confirm the order",StartCheckout
+"I'm done ordering",StartCheckout
+"let's checkout",StartCheckout
+"I want to pay",StartCheckout
+"proceed to payment",StartCheckout
+"time to checkout",StartCheckout
+"I'm ready to order",StartCheckout
+"complete my purchase",StartCheckout
+"let's finish up",StartCheckout
+"finalize my order",StartCheckout
+"go to checkout",StartCheckout
+"I want to complete my order",StartCheckout
+"take my money",StartCheckout
+"I'm ready to complete my order",StartCheckout
+"let's finalize this",StartCheckout
+"I'm all set",StartCheckout
+"time to pay",StartCheckout
+"I want to check out now",StartCheckout
+"let's go to payment",StartCheckout
+"I'm finished with my order",StartCheckout
+"I want to buy these items",StartCheckout
+"it's time to check out",StartCheckout
+"yes",ConfirmationYes
+"yep",ConfirmationYes
+"that is correct",ConfirmationYes
+"sure",ConfirmationYes
+"okay do it",ConfirmationYes
+"confirm",ConfirmationYes
+"proceed",ConfirmationYes
+"yup that's right",ConfirmationYes
+"sounds good",ConfirmationYes
+"correct",ConfirmationYes
+"affirmative",ConfirmationYes
+"please do",ConfirmationYes
+"go ahead",ConfirmationYes
+"that's it",ConfirmationYes
+"you got it",ConfirmationYes
+"do it",ConfirmationYes
+"okay",ConfirmationYes
+"alright",ConfirmationYes
+"yes please",ConfirmationYes
+"place it",ConfirmationYes
+"yes confirm the order",ConfirmationYes
+"that's right",ConfirmationYes
+"that is what I want",ConfirmationYes
+"yes proceed with the order",ConfirmationYes
+"that's correct please continue",ConfirmationYes
+"yes that's correct",ConfirmationYes
+"that's right go ahead",ConfirmationYes
+"yes place the order",ConfirmationYes
+"correct please proceed",ConfirmationYes
+"that is all correct",ConfirmationYes
+"no",ConfirmationNo
+"nope",ConfirmationNo
+"that's wrong",ConfirmationNo
+"cancel",ConfirmationNo
+"stop the process",ConfirmationNo
+"don't place the order",ConfirmationNo
+"wait cancel that",ConfirmationNo
+"actually no",ConfirmationNo
+"that's incorrect",ConfirmationNo
+"don't",ConfirmationNo
+"stop",ConfirmationNo
+"that's not right",ConfirmationNo
+"no thank you",ConfirmationNo
+"hold on",ConfirmationNo
+"wait",ConfirmationNo
+"nevermind",ConfirmationNo
+"cancel that",ConfirmationNo
+"I made a mistake",ConfirmationNo
+"that's not what I wanted",ConfirmationNo
+"do not proceed",ConfirmationNo
+"no don't do that",ConfirmationNo
+"that's not correct",ConfirmationNo
+"I want to cancel",ConfirmationNo
+"stop the order",ConfirmationNo
+"no that's not it",ConfirmationNo
+"no that's incorrect",ConfirmationNo
+"that is not correct",ConfirmationNo
+"I want to stop",ConfirmationNo
+"hold on don't do it",ConfirmationNo
+"don't continue",ConfirmationNo
+"what's the weather like",Unknown
+"tell me a joke",Unknown
+"set a timer for 10 minutes",Unknown
+"who is the president",Unknown
+"what time is it in london",Unknown
+"this is a cool app",Unknown
+"play some music",Unknown
+"how old are you",Unknown
+"what is your name",Unknown
+"can you sing a song",Unknown
+"what's the capital of France",Unknown
+"tell me the news",Unknown
+"how do you work",Unknown
+"open google",Unknown
+"search for cute puppies",Unknown
+"what is the meaning of life",Unknown
+"who built you",Unknown
+"are you a robot",Unknown
+"tell me a fun fact",Unknown
+"I like this chatbot",Unknown
+"what's your favorite color",Unknown
+"can you do my homework",Unknown
+"what is 2 plus 2",Unknown
+"tell me a story",Unknown
+"do you have feelings",Unknown
+"what's the current date",Unknown
+"can you call my mom",Unknown
+"what's the latest movie",Unknown
+"how tall is mount everest",Unknown
