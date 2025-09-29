@@ -1,16 +1,11 @@
-# bizil
+# Kushi 🍔🤖
 
-A new Flutter project.
+Kushi is a Flutter-based food delivery app with an innovative voice-command chatbot. Users can order food, manage their cart, and place orders seamlessly using either UPI or Cash on Delivery.
 
-## Getting Started
+## Features ✨
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Voice-command chatbot to take and place orders
+- Browse restaurants and menu items
+- Add/remove items from cart
+- Checkout using UPI or Cash on Delivery
+- Real-time order confirmation
