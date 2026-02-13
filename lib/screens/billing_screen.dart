@@ -17,10 +17,12 @@ class BillingScreen extends StatefulWidget {
 
 class _BillingScreenState extends State<BillingScreen> {
   PaymentMethod _selectedPaymentMethod = PaymentMethod.upi;
-  String _address = '123, Palm Jumeirah, Dubai, UAE';
+  String _address = 'Please add address';
+  String _phoneNumber = '';
   bool _isProcessing = false;
 
   final _addressController = TextEditingController();
+  final _phoneController = TextEditingController();
   final _cardNumberController = TextEditingController();
   final _expiryDateController = TextEditingController();
   final _cvvController = TextEditingController();
@@ -29,12 +31,14 @@ class _BillingScreenState extends State<BillingScreen> {
   @override
   void initState() {
     super.initState();
-    _addressController.text = _address;
+    _addressController.text = '';
+    _phoneController.text = '';
   }
 
   @override
   void dispose() {
     _addressController.dispose();
+    _phoneController.dispose();
     _cardNumberController.dispose();
     _expiryDateController.dispose();
     _cvvController.dispose();
@@ -44,11 +48,14 @@ class _BillingScreenState extends State<BillingScreen> {
 
   Future<void> _placeOrder(CartProvider cart) async {
     final user = FirebaseAuth.instance.currentUser;
-    if (user == null || cart.items.isEmpty) {
+    if (user == null ||
+        cart.items.isEmpty ||
+        _address.trim().isEmpty ||
+        _address == 'Please add address' ||
+        _phoneNumber.trim().isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-            content: Text(
-                'Cannot place order. Cart is empty or you are not logged in.')),
+            content: Text('Please enter delivery address and phone number.')),
       );
       return;
     }
@@ -90,6 +97,7 @@ class _BillingScreenState extends State<BillingScreen> {
         'totalAmount': cart.totalPrice,
         'status': 'Processing',
         'deliveryAddress': _address,
+        'phoneNumber': _phoneNumber,
         'paymentMethod': paymentMethodString,
         'timestamp': FieldValue.serverTimestamp(),
       });
@@ -145,11 +153,22 @@ class _BillingScreenState extends State<BillingScreen> {
               ),
               maxLines: 3,
             ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: _phoneController,
+              decoration: InputDecoration(
+                labelText: 'Phone Number',
+                border:
+                    OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+              ),
+              keyboardType: TextInputType.phone,
+            ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 setState(() {
-                  _address = _addressController.text;
+                  _address = _addressController.text.trim();
+                  _phoneNumber = _phoneController.text.trim();
                 });
                 Navigator.of(ctx).pop();
               },
@@ -235,6 +254,10 @@ class _BillingScreenState extends State<BillingScreen> {
                   Text(_address,
                       style: GoogleFonts.poppins(
                           color: Colors.grey[600], fontSize: 14)),
+                  if (_phoneNumber.isNotEmpty)
+                    Text(_phoneNumber,
+                        style: GoogleFonts.poppins(
+                            color: Colors.grey[600], fontSize: 14)),
                 ],
               ),
             ),
@@ -400,11 +423,9 @@ class _BillingScreenState extends State<BillingScreen> {
   Widget _buildPlaceOrderButton(CartProvider cart) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      decoration: const BoxDecoration(
-          color: Colors.white,
-          boxShadow: [
-            BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -2))
-          ]),
+      decoration: const BoxDecoration(color: Colors.white, boxShadow: [
+        BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -2))
+      ]),
       child: ElevatedButton(
         onPressed: _isProcessing || cart.items.isEmpty
             ? null
